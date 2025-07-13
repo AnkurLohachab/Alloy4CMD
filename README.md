@@ -1,6 +1,7 @@
 # Alloy4CMD: A Formal Approach for Component-based Modeling of Distributed Ledger Technology Architecture
 
 **Status**: 📄 Under Revision (Academic Paper)
+[![DOI](https://zenodo.org/badge/1019006121.svg)](https://doi.org/10.5281/zenodo.15873754)
 
 ## Abstract
 
