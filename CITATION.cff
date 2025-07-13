@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this project in your research, please cite it as follows."
+title: "Alloy4CMD: A Formal Approach for Component-based Modeling of Distributed Ledger Technology Architecture"
+version: "1.0.0"
+date-released: 2025-07-12
+type: software
+abstract: >
+  Alloy4CMD provides formal specifications for Distributed Ledger Technology (DLT) architecture using Alloy 6.
+  It introduces a reusable, component-based modeling strategy backed by formal assertions and consistency checks.
+  The models are designed for verification in early-stage DLT system design and emphasize correctness-by-construction.
+authors:
+  - family-names: Lohachab
+    given-names: Ankur
+    affiliation: "School of ICT, University of Tasmania, Hobart, Australia"
+    email: ankur.lohachab@utas.edu.au
+  - family-names: Garg
+    given-names: Saurabh
+    affiliation: "School of ICT, University of Tasmania, Hobart, Australia"
+  - family-names: Amin
+    given-names: Muhammad Bilal
+    affiliation: "School of ICT, University of Tasmania, Hobart, Australia"
+license: "MIT"
+repository-code: ""
+url: ""
