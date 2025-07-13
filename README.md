@@ -4,19 +4,13 @@
 
 ## Abstract
 
-Distributed Ledger Technology (DLT) engineering practices commonly rely on the adaptation and development of components as major building blocks.  
-However, incorrect component specifications may lead to architectural flaws, further propagating to the implementation stages and causing faulty configurations.  
-To this, we take grounds from the declarative modeling widely used in program verification and refactoring for developing correct-by-construction software.
+## Abstract
 
-Accordingly, we propose a component-based approach, **Alloy4CMD**, for formal modeling and analysis of DLT architectural design.  
-This involves transforming individual components via interpretation into well-formed specifications for decidable reasoning towards property checking.  
-We demonstrate how abstract interpretation in the declarative language approximates component semantics, followed by verification towards requirements conformity via typed assertions.  
-The analysis involves automated model finding, complemented by proofs for consistency checking.  
-The approach facilitates the provisioning of validated and reusable modules as the basis for modeling DLT architecture in the early development stages.
-
+Distributed Ledger Technology (DLT) system design increasingly emphasizes component-based development, where modular specifications serve as foundational building blocks. However, imprecise or incomplete component specifications can introduce architectural inconsistencies that propagate through to implementation, leading to misconfigurations and vulnerabilities. To address this, we leverage declarative modeling techniques—commonly employed in formal verification and program refactoring—to support correct-by-construction design. We introduce **Alloy4CMD**, a component-oriented framework for the formal specification and analysis of DLT architectures using Alloy. The approach systematically interprets individual components into well-formed specifications amenable to decidable reasoning and property verification. By applying abstract interpretation within Alloy, we approximate component semantics and validate requirements through typed assertions. Our analysis leverages automated model search and logical consistency checks, enabling the construction of reusable and analyzable modules that support rigorous architectural modeling in the early stages of DLT system development.
 
 ## Project Structure
 
+```text
 Alloy4CMD/
 │
 ├── models/                     # All component modules in Alloy
@@ -34,7 +28,6 @@ Alloy4CMD/
 ├── README.md                   # Project overview and usage instructions
 ├── LICENSE.md                  # MIT-based academic license with attribution clause
 └── CITATION.cff                # Citation metadata for academic referencing
-
 
 
 
