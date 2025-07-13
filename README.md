@@ -4,8 +4,6 @@
 
 ## Abstract
 
-## Abstract
-
 Distributed Ledger Technology (DLT) system design increasingly emphasizes component-based development, where modular specifications serve as foundational building blocks. However, imprecise or incomplete component specifications can introduce architectural inconsistencies that propagate through to implementation, leading to misconfigurations and vulnerabilities. To address this, we leverage declarative modeling techniques—commonly employed in formal verification and program refactoring—to support correct-by-construction design. We introduce **Alloy4CMD**, a component-oriented framework for the formal specification and analysis of DLT architectures using Alloy. The approach systematically interprets individual components into well-formed specifications amenable to decidable reasoning and property verification. By applying abstract interpretation within Alloy, we approximate component semantics and validate requirements through typed assertions. Our analysis leverages automated model search and logical consistency checks, enabling the construction of reusable and analyzable modules that support rigorous architectural modeling in the early stages of DLT system development.
 
 ## Project Structure
@@ -29,6 +27,7 @@ Alloy4CMD/
 ├── LICENSE.md                  # MIT-based academic license with attribution clause
 └── CITATION.cff                # Citation metadata for academic referencing
 
+```
 
 
 ## How to Use
