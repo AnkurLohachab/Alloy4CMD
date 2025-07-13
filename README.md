@@ -61,5 +61,12 @@ Alloy4CMD/
 - Contributions and suggestions are welcome once the repository is public.
 
 
+## Quick Links
+
+- 📄 [License](LICENSE.md)
+- 📄 [Citation Metadata](CITATION.cff)
+- 📁 [All Models](models/)
+
+
 
 
